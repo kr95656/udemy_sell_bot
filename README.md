@@ -7,7 +7,7 @@ udemy bot
   
 ## 概要    
   
-- 毎朝、udemyのurlがbotから送信されるのでセールの見逃しを防ぎます。  
+- 毎朝、udemyのurlがbotから送信されるのでセールの見逃しを防ぎます  
   
   
 ## アプリの構成    
@@ -29,7 +29,7 @@ udemy bot
 
 ## DEMO
   
-![image](https://gyazo.com/c7cabf697cdcb87b88aa88122f942384)  
+[![Image from Gyazo](https://i.gyazo.com/c7cabf697cdcb87b88aa88122f942384.png)](https://gyazo.com/c7cabf697cdcb87b88aa88122f942384) 
 テスト画像です。
   
   
