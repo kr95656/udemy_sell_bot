@@ -57,3 +57,4 @@ https://developers.line.biz/ja/docs/messaging-api/overview/#messaging-api%E3%81%
 
 - 多くのユーザーが使用できるように改良。  
 
+
