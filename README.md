@@ -50,7 +50,7 @@ https://developers.line.biz/ja/docs/messaging-api/overview/#messaging-api%E3%81%
 
 ## 開発環境
 
-ローカル  
+- ローカル  
 
 
 ## 課題や今後実装したい機能
