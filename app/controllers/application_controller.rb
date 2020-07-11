@@ -1,7 +1,6 @@
 
 class ApplicationController < ActionController::Base
   require 'line/bot'
-  # skip_before_action :verify_authenticity_token
   protect_from_forgery with: :null_session
   before_action :validate_signature
 
