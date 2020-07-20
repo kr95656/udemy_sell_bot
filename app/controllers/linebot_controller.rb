@@ -31,4 +31,6 @@ class LinebotController < ApplicationController
   end
 end
 
+#lineデベロッパーの設定において、ボットにグループチャットへの参加を許可した 
+
 
