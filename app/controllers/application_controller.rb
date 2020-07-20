@@ -1,7 +1,7 @@
 
 class ApplicationController < ActionController::Base
   require 'line/bot'
-  protect_from_forgery with: :null_session
+  protect_from_forgery with: :null_session #callbackアクションのCSRFトークン認証を無効
   before_action :validate_signature
 
   def validate_signature
