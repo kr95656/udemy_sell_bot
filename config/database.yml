@@ -84,6 +84,8 @@ test:
 #
 production:
   <<: *default
-  database: udemy_sell_bot_production
-  username: udemy_sell_bot
+  # database: udemy_sell_bot_production
+  # username: udemy_sell_bot
   password: <%= ENV['UDEMY_SELL_BOT_DATABASE_PASSWORD'] %>
+  username: ENV['DB_USERNAME']
+  password: ENV['DB_PASSWORD']
