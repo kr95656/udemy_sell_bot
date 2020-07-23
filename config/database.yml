@@ -14,6 +14,8 @@
 # Configure Using Gemfile
 # gem 'pg'
 #
+
+# dbをmysqlに変更する！
 default: &default
   # adapter: postgresql
   # encoding: unicode
