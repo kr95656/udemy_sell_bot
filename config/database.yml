@@ -22,8 +22,9 @@ default: &default
   # For details on connection pooling, see Rails configuration guide
   # https://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  username: USERNAME
-  password: PASSWORD
+  username: root
+  password: password
+  host: localhost
 
 development:
   <<: *default
@@ -84,8 +85,6 @@ test:
 #
 production:
   <<: *default
-  # database: udemy_sell_bot_production
-  # username: udemy_sell_bot
+  database: udemy_sell_bot_production
+  username: udemy_sell_bot
   password: <%= ENV['UDEMY_SELL_BOT_DATABASE_PASSWORD'] %>
-  username: ENV['DB_USERNAME']
-  password: ENV['DB_PASSWORD']
