@@ -1,4 +1,3 @@
-
 class ApplicationController < ActionController::Base
   require 'line/bot' #gem 'line-bot-api'を使用
   protect_from_forgery with: :null_session #callbackアクションのCSRFトークン認証を無効
